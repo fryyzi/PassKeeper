@@ -1,0 +1,54 @@
+## .NET / Visual Studio / WPF — .gitignore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Rider / VS Code (якщо використовуєш)
+.idea/
+.vscode/
+
+# Publish output
+publish/
+*.publishsettings
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mac files
+.DS_Store
